@@ -8,7 +8,7 @@
 
 Este proyecto es una simulación de un entorno empresarial de Alto Rendimiento (HPC) y Alta Disponibilidad desplegado en un único host (Ubuntu 24.04). Su objetivo es demostrar competencias avanzadas en administración de sistemas Linux, virtualización ligera, redes aisladas y políticas de respaldo empresarial.
 
-### 🛠️ Stack Tecnológico
+### Stack Tecnológico
 * **Sistema Operativo Base:** Ubuntu 24.04 LTS
 * **Contenedores:** Docker Engine (Nodos basados en CentOS 7)
 * **Almacenamiento:** Gestión de Volúmenes Lógicos (LVM), Particionamiento GPT.
