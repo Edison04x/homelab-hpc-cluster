@@ -1,0 +1,11 @@
+[Unit]
+Description=Montar almacenamiento del Homelab (Loop y LVM)
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/iniciar_homelab.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
